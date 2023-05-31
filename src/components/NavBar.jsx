@@ -83,7 +83,7 @@ const NavBar = () => {
                 For sale
               </li>
             </Link>
-            <Link>
+            <Link to={"/for-rent"}>
               <li className="inline-block px-2  hover:underline hover:underline-purple-700 decoration-2 my-4 md:my-0">
                 To rent
               </li>

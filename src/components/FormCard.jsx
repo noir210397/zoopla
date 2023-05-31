@@ -1,10 +1,10 @@
 import React from "react";
-import image from "../images/Sale.jpg";
+// import image from "../images/Sale.jpg";
 import Select from "./Select";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 
-const FormCard = ({ text, desc }) => {
+const FormCard = ({ text, desc, image, value }) => {
   return (
     <div className="h-[70vh] max-w-7xl rounded-xl mx-auto relative">
       <img
@@ -12,7 +12,7 @@ const FormCard = ({ text, desc }) => {
         alt=""
         className="object-cover w-full h-full rounded-xl"
       />
-      <div className="bg-white absolute top-1/2 -translate-y-1/2 start-2 px-4 py-2 w-full max-w-sm rounded-lg">
+      <div className="bg-white absolute bottom-0 md:bottom-auto md:top-1/2 md:-translate-y-1/2 md:start-2 px-4 py-2 w-full max-w-sm rounded-lg">
         <form>
           <div className="mb-3">
             <p className="font-extrabold text-lg">{text}</p>
@@ -29,8 +29,8 @@ const FormCard = ({ text, desc }) => {
             />
           </div>
           <div className="grid grid-cols-2 gap-5 my-2">
-            <Select desc="BedRooms" top="Any bed" />
-            <Select desc="Max Price" top="No Max" />
+            <Select desc="BedRooms" top="Any bed" value="bed" />
+            <Select desc="Max Price" top="No Max" value={value} />
           </div>
           <div>
             <label htmlFor="">Property type</label>

@@ -10,6 +10,7 @@ import Pay from "./pages/Pay";
 import { useContext } from "react";
 import AuthContext from "./context/AuthContext";
 import Sale from "./pages/Sale";
+import Rent from "./pages/Rent";
 
 function App() {
   const { isLoaded } = useContext(AuthContext)
@@ -22,6 +23,7 @@ function App() {
         <Route path="/register" element={<Register />}></Route>
         <Route path="/pay" element={<Pay />}></Route>
         <Route path="/for-sale" element={<Sale />}></Route>
+        <Route path="/for-rent" element={<Rent />}></Route>
         <Route element={<ProtectedRoute />} >
           <Route element={<Account />} path="/account" />
           <Route element={<Saved />} path="/saved" />
