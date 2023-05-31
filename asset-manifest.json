@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/zoopla/static/css/main.e3a71488.css",
+    "main.js": "/zoopla/static/js/main.4710f7d0.js",
+    "static/media/3.jpg": "/zoopla/static/media/3.626efcb252fea3196c53.jpg",
+    "static/media/1.jpg": "/zoopla/static/media/1.9efdca7caccb06782483.jpg",
+    "static/media/2.jpg": "/zoopla/static/media/2.accc8266725bbb32490b.jpg",
+    "static/media/rent.jpg": "/zoopla/static/media/rent.4ccc29881fc7f138bff5.jpg",
+    "static/media/Sale.jpg": "/zoopla/static/media/Sale.a5f49c112b17f95c5fea.jpg",
+    "static/media/Homepage-hero-image-new-homes.png": "/zoopla/static/media/Homepage-hero-image-new-homes.9e461b89f63c464e0d98.png",
+    "static/media/A013C019_220527_R2GW_01_00_24_08_Graded_1611951_cropped_1500__2_.png": "/zoopla/static/media/A013C019_220527_R2GW_01_00_24_08_Graded_1611951_cropped_1500__2_.d7eaf69b24917b4098ea.png",
+    "static/media/GettyImages-1190810297_-_2.jpg": "/zoopla/static/media/GettyImages-1190810297_-_2.d53cba4d01cbc1feba40.jpg",
+    "static/media/house-price-index-april-2022.jpg": "/zoopla/static/media/house-price-index-april-2022.c75101517f81046c7ae1.jpg",
+    "static/media/wales-land-transaction-tax.jpg": "/zoopla/static/media/wales-land-transaction-tax.ad5dbe001484d442af1b.jpg",
+    "index.html": "/zoopla/index.html",
+    "main.e3a71488.css.map": "/zoopla/static/css/main.e3a71488.css.map",
+    "main.4710f7d0.js.map": "/zoopla/static/js/main.4710f7d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3a71488.css",
+    "static/js/main.4710f7d0.js"
+  ]
+}
