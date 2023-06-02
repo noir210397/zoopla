@@ -12,7 +12,7 @@ const FormCard = ({ text, desc, image, value }) => {
         alt=""
         className="object-cover w-full h-full rounded-xl"
       />
-      <div className="bg-white absolute bottom-0 md:bottom-auto md:top-1/2 md:-translate-y-1/2 md:start-2 px-4 py-2 w-full max-w-sm rounded-lg">
+      <div className="bg-white absolute  bottom-0 md:bottom-auto md:top-1/2 md:-translate-y-1/2 md:start-2 px-4 py-2 w-full md:max-w-sm max-w-lg rounded-lg">
         <form>
           <div className="mb-3">
             <p className="font-extrabold text-lg">{text}</p>

@@ -88,6 +88,7 @@ const Select = ({ desc, top, value }) => {
             {bed.map((item) => {
               return (
                 <button
+                  key={item}
                   type="button"
                   onClick={() => {
                     setselected(item);
@@ -103,6 +104,7 @@ const Select = ({ desc, top, value }) => {
             {maxSale(value).map((item) => {
               return (
                 <button
+                  key={item}
                   type="button"
                   onClick={() => {
                     setselected(`${item}${value === "rent" ? " PCM" : " "}`);

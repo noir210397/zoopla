@@ -11,6 +11,7 @@ const Form = ({ value, text }) => {
   const [loginPassword, setLoginPassword] = useState("");
   const [emailError, setEmailError] = useState("");
   const [passwordError, setPasswordError] = useState("");
+  const [buttonColor, setButtonColor] = useState("");
   // const [email, setEmail] = useState(false);
   // const [password, setPassword] = useState(false);
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -216,14 +217,24 @@ const Form = ({ value, text }) => {
           </p>
           <div className="grid grid-cols-2 gap-2 py-3">
             <button
+              onClick={() => {
+                setButtonColor("yes");
+              }}
               type="button"
-              className="border border-black text-rose-950 hover:text-white hover:bg-green-700 py-3 rounded-lg"
+              className={`border ${
+                buttonColor === "yes" ? "bg-green-700 text-white" : ""
+              } border-black text-rose-950 hover:text-white hover:bg-green-700 py-3 rounded-lg`}
             >
               Yes, Please
             </button>
             <button
+              onClick={() => {
+                setButtonColor("no");
+              }}
               type="button"
-              className="border border-black text-rose-950 hover:text-white hover:bg-red-700 py-3 rounded-lg"
+              className={`border ${
+                buttonColor === "no" ? "bg-red-700 text-white" : ""
+              } border-black text-rose-950 hover:text-white hover:bg-red-700 py-3 rounded-lg`}
             >
               No Thanks
             </button>
