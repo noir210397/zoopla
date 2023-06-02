@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/zoopla/static/css/main.e3a71488.css",
-    "main.js": "/zoopla/static/js/main.4710f7d0.js",
+    "main.css": "/zoopla/static/css/main.add80332.css",
+    "main.js": "/zoopla/static/js/main.c4c88b75.js",
     "static/media/3.jpg": "/zoopla/static/media/3.626efcb252fea3196c53.jpg",
     "static/media/1.jpg": "/zoopla/static/media/1.9efdca7caccb06782483.jpg",
     "static/media/2.jpg": "/zoopla/static/media/2.accc8266725bbb32490b.jpg",
@@ -13,11 +13,11 @@
     "static/media/house-price-index-april-2022.jpg": "/zoopla/static/media/house-price-index-april-2022.c75101517f81046c7ae1.jpg",
     "static/media/wales-land-transaction-tax.jpg": "/zoopla/static/media/wales-land-transaction-tax.ad5dbe001484d442af1b.jpg",
     "index.html": "/zoopla/index.html",
-    "main.e3a71488.css.map": "/zoopla/static/css/main.e3a71488.css.map",
-    "main.4710f7d0.js.map": "/zoopla/static/js/main.4710f7d0.js.map"
+    "main.add80332.css.map": "/zoopla/static/css/main.add80332.css.map",
+    "main.c4c88b75.js.map": "/zoopla/static/js/main.c4c88b75.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3a71488.css",
-    "static/js/main.4710f7d0.js"
+    "static/css/main.add80332.css",
+    "static/js/main.c4c88b75.js"
   ]
 }
