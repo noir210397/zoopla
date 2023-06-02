@@ -13,8 +13,8 @@ import Sale from "./pages/Sale";
 import Rent from "./pages/Rent";
 
 function App() {
-  const { isLoaded } = useContext(AuthContext)
-  if (!isLoaded) return <div></div>
+  // const { isLoaded } = useContext(AuthContext)
+  // if (!isLoaded) return <div></div>
   return (
     <div>
       <Routes>
