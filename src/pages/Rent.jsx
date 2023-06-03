@@ -44,7 +44,13 @@ const Rent = () => {
           <Links value="For rent" solid={true} location="/for-rent" />
         </p>
       </div>
-      <FormCard text={rent.text} desc={rent.desc} image={image} value="rent" />
+      <FormCard
+        text={rent.text}
+        desc={rent.desc}
+        image={image}
+        value="rent"
+        select={true}
+      />
       <HomeSlider data={data} />
       <Footer />
     </div>

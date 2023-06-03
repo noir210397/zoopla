@@ -7,6 +7,9 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import Account from "./pages/Account";
 import Saved from "./pages/Saved";
 import Pay from "./pages/Pay";
+import HousePrices from "./pages/HousePrices.jsx"
+import AgentValuation from "./pages/AgentValuation.jsx"
+import InstantValuation from "./pages/InstantValuation.jsx"
 import { useContext } from "react";
 import AuthContext from "./context/AuthContext";
 import Sale from "./pages/Sale";
@@ -24,6 +27,9 @@ function App() {
         <Route path="/pay" element={<Pay />}></Route>
         <Route path="/for-sale" element={<Sale />}></Route>
         <Route path="/for-rent" element={<Rent />}></Route>
+        <Route path="/house-prices" element={<HousePrices />}></Route>
+        <Route path="/agent-valuation" element={<AgentValuation />}></Route>
+        <Route path="/instant-valuation" element={<InstantValuation />}></Route>
         <Route element={<ProtectedRoute />} >
           <Route element={<Account />} path="/account" />
           <Route element={<Saved />} path="/saved" />

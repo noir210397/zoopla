@@ -46,7 +46,13 @@ const Sale = () => {
           <Links value="For sale" solid={true} location="/for-sale" />
         </p>
       </div>
-      <FormCard text={sale.text} desc={sale.desc} image={image} value="sale" />
+      <FormCard
+        text={sale.text}
+        desc={sale.desc}
+        image={image}
+        value="sale"
+        select={true}
+      />
       <HomeSlider data={data} />
       <Footer />
     </div>

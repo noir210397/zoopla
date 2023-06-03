@@ -4,7 +4,7 @@ import Select from "./Select";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 
-const FormCard = ({ text, desc, image, value }) => {
+const FormCard = ({ text, desc, image, value, select }) => {
   return (
     <div className="h-[70vh] max-w-7xl rounded-xl mx-auto relative">
       <img
@@ -21,18 +21,22 @@ const FormCard = ({ text, desc, image, value }) => {
           <label htmlFor="" className="my-1 font-semibold">
             Search
           </label>
-          <div>
+          <div className={`${select ? "" : "mb-3"}`}>
             <input
               type="text"
               className="w-full rounded outline-none focus:outline-purple-700 outline border border-gray-500 px-4 py-2"
               placeholder="e.g Oxford or NW3"
             />
           </div>
-          <div className="grid grid-cols-2 gap-5 my-2">
+          <div
+            className={`grid grid-cols-2 gap-5 my-2 ${
+              select ? "block" : "hidden"
+            }`}
+          >
             <Select desc="BedRooms" top="Any bed" value="bed" />
             <Select desc="Max Price" top="No Max" value={value} />
           </div>
-          <div>
+          <div className={`${select ? "block" : "hidden"}`}>
             <label htmlFor="">Property type</label>
             <div className="grid grid-cols-2 gap-x-5">
               <p>

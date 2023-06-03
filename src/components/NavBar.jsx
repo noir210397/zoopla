@@ -88,17 +88,17 @@ const NavBar = () => {
                 To rent
               </li>
             </Link>
-            <Link>
+            <Link to={"/house-prices"}>
               <li className="inline-block px-2  hover:underline hover:underline-purple-700 decoration-2 my-4 md:my-0">
                 House Prices
               </li>
             </Link>
-            <Link>
+            <Link to={"/agent-valuation"}>
               <li className="inline-block px-2  hover:underline hover:underline-purple-700 decoration-2 my-4 md:my-0">
                 Agent Valuation
               </li>
             </Link>
-            <Link>
+            <Link to={"/instant-valuation"}>
               <li className="inline-block px-2  hover:underline hover:underline-purple-700 decoration-2 my-4 md:my-0">
                 Instant Valuation
               </li>
