@@ -17,7 +17,7 @@ import Rent from "./pages/Rent";
 
 function App() {
   const { isLoaded } = useContext(AuthContext)
-  if (!isLoaded) return <div></div>
+  if (!isLoaded) return <div>ll</div>
   return (
     <div>
       <Routes>
